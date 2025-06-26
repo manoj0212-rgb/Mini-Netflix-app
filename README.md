@@ -9,7 +9,9 @@ A **Netflix-inspired movie browsing app** built using **HTML, CSS, and JavaScrip
 👉 [View the Live App](https://manoj0212-rgb.github.io/Mini-Netflix-app/)
 
 ---
+## 📸 Demo Screenshot
 
+(Screenshot 2025-06-26 231649.png)
 
 ## 🚀 Features
 
