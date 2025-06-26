@@ -11,7 +11,7 @@ A **Netflix-inspired movie browsing app** built using **HTML, CSS, and JavaScrip
 ---
 ## 📸 Demo Screenshot
 
-![Screenshot of App](Screenshot 2025-06-26 231649.png)
+![Screenshot of App](homepage.png)
 
 ## 🚀 Features
 
