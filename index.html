@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 Mini Netflix App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="screen-splash">
+        <h1>📽️ Mini Netflix App🍿</h1>
+        <p>Loading Movie...</p>
+    </div>
+    <header>
+      <h1>📽️ Mini Netflix App🍿</h1>
+      <p>Search. discover. Favourites Your Movies</p>
+    </header>
+        <section id="search-section">
+            <input type="text" id="searchinput" placeholder="Enter movie name..">
+            <button id="searchbtn">Search</button>
+        </section>
+
+        <div id="genre-switch">
+  <button onclick="loadRegion('bollywood')" id="btn-bollywood">🎬 Bollywood</button>
+  <button onclick="loadRegion('hollywood')" id="btn-hollywood">🌍 Hollywood</button>
+</div>
+
+   <section id="movie-details">
+            
+   </section>
+
+   <section id="recommendations" class="hidden">
+      <h2>Searched Results</h2>
+      <div class="slider" id="rec-movie-list">
+           
+      </div>
+   </section>
+
+   <section class="genre-slider">
+     <h2>🔥 Trending Now</h2>
+     <div class="slider" id="trendingmovies"></div>
+   </section>
+
+   <section class="genre-slider">
+     <h2>⚔️ Action </h2>
+     <div class="slider" id="actionmovies"></div>
+   </section>
+
+   <section class="genre-slider">
+     <h2>😂 Comedy</h2>
+     <div class="slider" id="comedymovies"></div>
+   </section>
+
+   <section class="genre-slider">
+     <h2>🚀 Sci-fi</h2>
+     <div class="slider" id="scifimovies"></div>
+   </section>
+
+   <sction id="favourites">
+    <h2>❤️ Your Favourites Movies</h2>
+    <div id="favouriteslist" class="slider"></div>
+   </sction>
+
+   <footer>
+    <p>🖥️ Made by Manoj Yadav | Data via omdb API</p>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
